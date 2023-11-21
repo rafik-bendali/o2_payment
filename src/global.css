@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Frutiger45Light';
+  src: url('/src/assets/fonts/Frutiger45LightRegular.otf') format('opentype');
+  font-weight: 300; /* Adjust as necessary */
+  font-style: normal; /* Adjust as necessary */
+}
+
+body {
+  font-family: 'Frutiger45Light', sans-serif;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  /* If 'Frutiger45Light' is not available, it falls back to a generic sans-serif font */
+}
+
+h1,h2,h3,h4,h5{
+  letter-spacing: 0.5px;
+}
